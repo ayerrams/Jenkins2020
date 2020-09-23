@@ -19,7 +19,9 @@ public class steps {
 	@Before
 	public void beforetest()
 	{
-		System.setProperty("webdriver.chrome.driver", "D://chromedriver_win32//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "D://chromedriver_win32//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C://Users//AnilYerramsetti//git//MavenLP4SDET//Cucmber//Drivers//chromedriver.exe");
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
