@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="59.189">
-<testcase classname="Login Features" name="login with different user" time="22.976">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="59.722">
+<testcase classname="Login Features" name="login with different user" time="24.281">
 <system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
 When I Enter the username as "Admin"........................................passed
 And I Enter the password as "admin123"......................................passed
@@ -8,7 +8,7 @@ And I click on the login button.............................................pass
 Then i should see the username as "Welcome Linda"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Features" name="login with different user 2" time="22.174">
+<testcase classname="Login Features" name="login with different user 2" time="22.159">
 <system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
 When I Enter the username as "linda.anderson"...............................passed
 And I Enter the password as "linda.anderson"................................passed
@@ -16,7 +16,7 @@ And I click on the login button.............................................pass
 Then i should see the username as "Welcome Linda"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login Features" name="Login with Negative data" time="13.858">
+<testcase classname="Login Features" name="Login with Negative data" time="13.087">
 <system-out><![CDATA[Given I am able to naviagte onto the login page.............................passed
 When I Enter the username as "sunil"........................................passed
 And I Enter the password as "sunil".........................................passed

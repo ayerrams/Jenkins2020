@@ -20,6 +20,7 @@ public class steps {
 	public void beforetest()
 	{
 		//System.setProperty("webdriver.chrome.driver", "D://chromedriver_win32//chromedriver.exe");
+		//Chome Path
 		System.setProperty("webdriver.chrome.driver", "C://Users//AnilYerramsetti//git//MavenLP4SDET//Cucmber//Drivers//chromedriver.exe");
 		
 		driver = new ChromeDriver();
